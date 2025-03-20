@@ -36,9 +36,9 @@
 
 This starter is compatible with versions >= 2.5.0 of `@medusajs/medusa`. 
 
-# Payment-Razorpay
+# Notification-smtp
 
-# Support the Payment-Razorpay Provider - Elevate Our Medusa Community!
+# Support the Notification-smtp Provider - Elevate Our Medusa Community!
 
 Dear Developers and E-commerce Enthusiasts,
 
@@ -62,14 +62,14 @@ The SMTP Provider integrates SMTP email services into the MedusaJS commerce stac
 
 ## Installation
 
-Use the package manager npm to install Payment-Razorpay.
+Use the package manager npm to install Notification-smtp.
 
 ```bash
 npm install @tsc_tech/medusa-plugin-smtp
 yarn add @tsc_tech/medusa-plugin-smtp
 ```
 
-Additionally, install the Razorpay package:
+Additionally, install the smtp package:
 
 ```bash
 npm install nodemailer
@@ -112,7 +112,7 @@ DEFAULT_REPLY_TO=your-email@gmail.com
 ```
 
 Step 3: Update Medusa Configuration
-Modify your medusa-config.ts to include the Razorpay provider:
+Modify your medusa-config.ts to include the smtp provider:
 
 
 ```

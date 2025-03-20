@@ -44,12 +44,6 @@ class NotificationService extends AbstractNotificationProviderService {
   }
 
   static validateOptions(options: Record<any, any>) {
-    // if (!options.api_key) {
-    // 	throw new MedusaError(
-    // 		MedusaError.Types.INVALID_DATA,
-    // 		"Option `api_key` is required in the provider's options."
-    // 	);
-    // }
     if (!options.fromEmail) {
       throw new MedusaError(
         MedusaError.Types.INVALID_DATA,
